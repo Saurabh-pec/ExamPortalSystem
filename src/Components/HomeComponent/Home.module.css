@@ -1,0 +1,128 @@
+
+ body{
+    margin: 0px;
+    background-color: aqua;
+   /* background-image: url('../../images/10.jpg');*/
+   background-image: url('../../images/exam3.jpg');
+    background-size: cover;
+     background-repeat: no-repeat;
+      background-attachment: fixed;
+}
+
+ 
+ #header{
+      /* background-color: #2e6da4dc; */
+      background-color: rgba(250, 247, 247, 0.9);
+     
+      float: left;
+      /* height: 100px; */
+      width: 100%;
+
+      position: fixed;
+      z-index: 1;
+
+  }
+
+/* --------------------------------------------------------- */
+
+   #headerHeadingBox{
+      /* background-color: cyan; */
+      float: left;
+      height: 100px;
+      width: 400px;
+      color: rgba(195, 88, 11, 0.95);
+      letter-spacing: 1.9;
+      font-size: x-large;
+      font-weight: bolder;
+      margin-left:40px;
+  }
+
+
+     
+   #headerHeadingBox h3{
+     margin: 13px;
+     padding-top: 10px;
+     padding-left: 10px;
+   }
+
+       
+/* ------------------------------------------------------------------------- */
+
+
+
+    #div1{
+          /* background-color: yellow; */
+          float: left;
+          height: 350px;
+          width: 90%;
+
+          position: relative;
+          
+          padding-left: 7%;
+          margin-top: 300px;
+
+          text-align: center;
+    }
+
+
+    /* #div1 img{
+        height: 110px;
+        width: 150px;
+        float:50%;
+        
+    } */
+
+    #div1 span{
+      display: block;
+      font-size: 50px;
+      font-weight: 900;
+      color: rgb(238, 55, 4);
+       
+   }
+
+
+   #div2{
+        /* background-color: yellow; */
+         float: left;
+          height: 100px;
+          width: 1000px;
+
+          position: relative;
+          top: 55;
+          
+          margin-top: 30px;
+          margin-left: 300px;
+
+          text-align: center;
+    }
+
+
+    .div3{
+        float: left;
+        height: 100px;
+        width: 455px;
+        margin-left: 30px;
+
+        text-align: center;
+    }
+
+    /* .div3 img{
+       height: 250px;
+       width: 300px;
+       margin-top: 20px;
+       border: 1px solid black;
+    } */
+
+
+    .div3 span{
+       display: block;
+       font-size: x-large;
+    }
+
+
+    .div3 a{
+        color: rgb(94, 9, 213);
+        text-decoration: none;
+    }
+
+    h3 { display:inline }
